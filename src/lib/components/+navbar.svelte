@@ -1,28 +1,30 @@
-
 <div class="navbar">
     <a href="/">homepage</a>
     <a href="/projects">projects</a>
 </div>
 
 <style>
+    .navbar, a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+
     .navbar {
         height: 20%;
         width: 100%;
         margin: 0px;
-        background: #a00000;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        background: linear-gradient(#000000b0 90%, transparent) ;
     }
 
     a {
         border: 2px solid black;
+        width: 5%;
         border-radius: 15px;
-        background-color: white;
-        padding: 10px;
-        margin: 10px;
-        margin-left: 20px;
-        margin-right: 20px;
+        background-color: #ffffffe0;
+        margin: 20px;
+        margin-top: 10px;
         text-decoration: none;
         color: black;
     }
