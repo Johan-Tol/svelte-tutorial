@@ -8,7 +8,7 @@
     });
     console.log(project);
 </script>
-
+<title>project: {project.title}</title>
 <Navbar/>
 
 <h1>{project.title}</h1>

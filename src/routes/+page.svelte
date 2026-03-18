@@ -1,7 +1,7 @@
 <script>
     import Navbar from '$lib/components/+navbar.svelte';
 </script>
-
+<title>Homepage</title>
 <Navbar/>
 
 <h1>Projects website veltekit oefenen</h1>

@@ -8,7 +8,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 10px;
     }
 
     .navbar {
@@ -20,6 +19,7 @@
 
     a {
         border: 2px solid black;
+        padding: 10px;
         width: 5%;
         border-radius: 15px;
         background-color: #ffffffe0;

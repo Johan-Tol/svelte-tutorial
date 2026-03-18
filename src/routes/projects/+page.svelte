@@ -3,17 +3,18 @@
     import Projects from '$lib/assets/projects.json';
     let Text = $state('Default text');
 </script>
-
+<title>Projects</title>
 <Navbar/>
 
 <h1>dit is om te kijken naar sveltekit hoe het werkt</h1>
 
 <div>
     <div class="right">
-        <h3>{Text}</h3>
+        <p>{Text}</p>
     </div>
 </div>
-<input type="text" bind:value={Text}>
+<label for="bindedText">type here something and it will appear above</label><br>
+<input type="text" name="bindedText" bind:value={Text}>
 <button onclick={() => Text = "Default text"}>reset</button>
 
 <h3>Projects</h3>
@@ -32,5 +33,10 @@
 
     .right {
         justify-content: right;
+    }
+
+    a {
+        text-decoration: underline;
+        color: black;
     }
 </style>
